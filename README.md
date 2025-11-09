@@ -1,6 +1,9 @@
 # LLM-Prompt-Recovery-Project
 ## 项目概览：
    本项目利用算法恢复用于改写给定文本的LLM提示。竞赛使用1300多个原始文本及其经Gemma（Google开放的大语言模型）改写的版本组成的数据集进行测试。评估标准基于sentence-t5-base模型生成的嵌入向量，通过“锐化余弦相似度”（Sharpened Cosine Similarity）计算得分。
+   
+## 运行方法：
+python llm-pr-pack-code.ipynb
 
 ## 所用算法：
 1.	生成训练样本数据：
